@@ -1,8 +1,9 @@
 module jobqueue
 
-go 1.20
+go 1.23.0
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/graph-gophers/dataloader/v6 v6.0.0
 	github.com/graph-gophers/graphql-go v1.6.0
 	github.com/labstack/echo v3.3.10+incompatible
