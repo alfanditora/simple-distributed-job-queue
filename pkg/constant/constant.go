@@ -14,8 +14,8 @@ type WorkerOptions struct {
 }
 
 var WorkerOptionsConfig = WorkerOptions{
-	PollInterval: 5 * time.Second,
-	MaxWorkers:   5,
+	PollInterval: 3 * time.Second,
+	MaxWorkers:   10,
 	RetryDelay:   5 * time.Second,
 	MaxAttempts:  3,
 }

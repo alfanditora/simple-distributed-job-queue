@@ -67,7 +67,7 @@ func (r *jobRepository) FindByToken(ctx context.Context, token string) (*entity.
 			return job, nil
 		}
 	}
-	return nil, errors.New("job not found")
+	return nil, nil
 }
 
 // Initiator ...
